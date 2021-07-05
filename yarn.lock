@@ -9462,6 +9462,13 @@ raw-body@2.4.0:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
+react-agenda-calendar@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/react-agenda-calendar/-/react-agenda-calendar-1.1.2.tgz#9df4ba0b35ec6e196ae8430575423d505abc1cdb"
+  integrity sha512-a3edJvW/uDVzKpzfO3ycSkxjKeSFvc7VSs/+hr71qxZqMp302ZlCagAGjIjO8gxJkOTOBRvy/RSiR+fWyXQT4g==
+  dependencies:
+    prop-types "^15.7.2"
+
 react-app-polyfill@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/react-app-polyfill/-/react-app-polyfill-2.0.0.tgz#a0bea50f078b8a082970a9d853dc34b6dcc6a3cf"

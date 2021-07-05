@@ -1,38 +1,340 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen {
+  body {
+    background-image: linear-gradient(#004279, #b6deff);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bodyBack {
+  background-image: linear-gradient(#004279, #b6deff);
+  height: 1200px;
+}
+
+@media print {
+  .bodyBackOff {
+    background-image: #ffffff;
+    height: 1000px;
+  }
+  .bodyBack {
+    background-image: linear-gradient(#004279, #b6deff);
+    height: 1000px;
+  }
+}
+
+body {
+  -webkit-print-color-adjust: exact;
+  font-family: 'Arial Black', sans-serif;
+}
+
+.btnSetup{
+  border-radius: 15px;
+  padding: 8px;
+  margin-left: 10px;
+  color: #405666;
+  background-color: #b6dcd3;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  float: right;
+}
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+
+._1j-Ck {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff50;
+  flex-wrap: wrap;
+}
+
+
+.daysCell {
+  width: calc(100% / 7 - 1.3px);
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #b6dcd3;
+  padding: 10px;
+  margin-left: 6px;
+  margin-right: 6px;
+  color: #405666;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .daysCell {
+    padding: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    border-radius: 5px;
+  }
+}
+._3iRgZ {
+  padding-top: 1px;
+  padding-bottom: 1px;   
+  font-size: 20px;
+  text-align: left;
+  padding-right: 15px;
+  padding-left: 15px;
+  color: #c0deef;
+  min-height: 60px;
+}
+
+._2l9pR{
+  width: calc(100% / 7 - 26px);
+  display: table-cell;  
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-bottom: 12px;
+  border: solid 1px #eaf0f4;    
+  border-radius: 20px;
+  font-family: 'Arial Black', sans-serif;
+}
+@media only screen and (max-width: 600px) {
+  ._2l9pR{
+    width: calc(100% / 7 - 10px);
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    border: solid 1px #eaf0f4;    
+    border-radius: 5px;
+  }
+}
+
+._1wH75{
+  border-left: solid 1px #eaf0f4;
+}
+
+._1LueL{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-right: -14px;
+  margin-left: -14px;
+  margin-top: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+._3dL00{
+  border-radius: 10px;
+  font-family: 'Arial Black', sans-serif;
+  padding: 2px;
+  margin-bottom: 2px;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+._L25{
+  background-color: #ecdd0c;
+}
+._L50{
+  background-color: #0acc4b;
+}
+._L75{
+  background-color: #e77737;
+}
+._L100{
+  background-color: #e93811;
+}
+._L0{
+  background-color: #ddfaff;
+}
+._XUQDT {
+font-size: 40px;
+text-align: center;
+color: #3080b9;
+padding-top: 20px;
+margin-bottom: 30px;
+font-family: 'Arial Black', sans-serif;
+}
+
+._3_zWf {
+width: 100%;
+margin-top: 60px;
+padding-bottom: 20px;
+background-color: #ffffff;
+border-radius: 30px;
+}
+
+._title{
+  width: 100%;
+  font-size: 40px;
+  margin-top: 40px;
+  text-align: center;
+  color: #dff2ff;
+  font-family: 'Arial Black', sans-serif;
+  flex-direction:column;
+}
+
+@media print{
+  _title{
+    color: #004279;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 600px) {
+  ._title{
+    width: 100%;
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: center;
   }
+}
+
+._pCKfW {
+border-right: solid 1px #d7dae2;
+padding: 10px;
+text-align: center;
+color: #fafafa;
+font-size: 14px;
+}
+
+._1kB3k {
+width: 100%;
+flex-direction: row;
+margin-bottom: 10px;
+cursor: pointer;
+}
+
+._3jOu4 {
+  display: flex;
+  flex-direction: row;
+  border: solid 1px #d7dae2;
+  border-radius: 2.5px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.setup {
+  display: flex;
+  flex-wrap: wrap ;
+  background-color: #b6deff;
+  border: solid 1px #d7dae2;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+label {
+  margin: 10px;
+  padding: 10px;
+  color:#405666;
+}
+
+input{
+  margin-left: 10px;
+}
+
+._2bfAC {
+width: 100%;
+box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.15);
+position: relative;
+}
+
+._2bfAC ._T0JT4 {
+font-size: 16px;
+text-align: center;
+color: #ffffff;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+._2bfAC ._2A2JS {
+border-bottom: solid 1px #eaf0f4;
+padding-right: 10px;
+padding-left: 10px;
+}
+
+._2bfAC ._1I9gp {
+overflow-y: scroll;
+height: 200px;
+}
+
+._2bfAC ._1PWNR {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50px;
+font-size: 14px;
+text-align: center;
+color: #563a59;
+cursor: pointer;
+}
+
+._2zOV9 {
+padding-top: 10px;
+padding-bottom: 10px;
+color: #ffffff;
+padding-left: 40px !important;
+}
+
+._3t0sr {
+font-size: 14px;
+font-weight: bold;
+text-align: left;
+color: #ffffff;
+margin-bottom: 5px;
+white-space: nowrap;
+overflow: hidden;
+}
+
+._Kz8BH {
+opacity: 0.5;
+font-size: 12px;
+text-align: left;
+color: #feffda;
+white-space: nowrap;
+overflow: hidden;
+}
+
+._2zAQ1{
+  height: auto;
+}
+
+._3Mte1{        
+  display: flex;
+  height: 100%;
+}
+
+._uomxK{
+  width: 100%;
+  padding: 2%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+
+._3xIta {
+  border-radius: 2.5px;
+  border: solid 1px #707070;
+  background-color: #ffffff70;
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+  color: #363336;
+  max-width: 120px;
+  float: right;
+  margin-bottom: 60px
+}
+
+._pUw5o{
+    width: 0px;
+    transition: width 1s;
+    overflow-x: hidden;
 }
