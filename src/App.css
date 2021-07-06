@@ -24,6 +24,11 @@ body {
   -webkit-print-color-adjust: exact;
   font-family: 'Arial Black', sans-serif;
 }
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+  }
+}
 
 .btnSetup{
   border-radius: 15px;
@@ -176,13 +181,9 @@ border-radius: 30px;
   color: #dff2ff;
   font-family: 'Arial Black', sans-serif;
   flex-direction:column;
+  text-shadow: -1px 0 #004279, 0 1px #004279, 1px 0 #004279, 0 -1px #004279;
 }
 
-@media print{
-  ._title{
-    color: #004279;
-  }
-}
 
 @media only screen and (max-width: 600px) {
   ._title{
